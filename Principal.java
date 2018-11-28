@@ -151,7 +151,6 @@ public class Principal {
                                         break;
                                     } else {
                                         c.pegarLivro(email, livro);
-
                                     }
                                     break;
                                 case "4":
@@ -183,7 +182,6 @@ public class Principal {
                                     System.out.print("Edição: ");
                                     String edicao = in.nextLine();
                                     c.adicionarLivro(titulo, autor, editora, edicao);
-
                                     break;
                                 case "2":
                                     String tituloR = JOptionPane.showInputDialog(null, "Nome do livro");
@@ -225,10 +223,8 @@ public class Principal {
                         break;
                     } else {
                         System.out.print("Digite sua senha: ");
-                        String newSenha = in.nextLine();
-                        
-                        c.adicionarCliente(nome, cpf, newEmail, newSenha);
-                       
+                        String newSenha = in.nextLine();                      
+                        c.adicionarCliente(nome, cpf, newEmail, newSenha);                      
                     }
                     break;
                 default:
