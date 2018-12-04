@@ -1,10 +1,5 @@
-
 package model;
 
-/**
- *
- * @author Danilo
- */
 public abstract class Usuario {
     private String nome;
     private String cpf;
@@ -55,7 +50,5 @@ public abstract class Usuario {
     @Override
     public String toString() {
         return "Usuario{" + "nome=" + nome + ", cpf=" + cpf + ", email=" + email + '}';
-    }
-    
-    
+    }   
 }
