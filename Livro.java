@@ -1,10 +1,5 @@
-
 package model;
 
-/**
- *
- * @author Danilo
- */
 public class Livro {
     private String titulo;
     private String autor;
@@ -19,10 +14,6 @@ public class Livro {
     public String getStatus() {
         return status;
     }
-    
-    
-    
-    
     
     public Livro(){}
 
@@ -68,9 +59,5 @@ public class Livro {
     @Override
     public String toString() {
         return "Livro{" + "titulo=" + titulo + ", autor=" + autor + ", editora=" + editora + ", edicao=" + edicao +"\n"+"  status=" + status + '}';
-    }
-
-   
-    
-    
+    }    
 }
